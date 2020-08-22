@@ -1,4 +1,4 @@
-# GIven a String find the uppercase
+# Given a String find the uppercase
 
 input_str_1 = "AdityaTaksande"
 input_str_2 = "RachitKhandelwal"
