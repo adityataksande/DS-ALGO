@@ -21,5 +21,14 @@ finduppercase_iterative(input_str_3)
 
 # recursive approach
 
-def finduppercase_recursive(input_str):
-    pass
+def finduppercase_recursive(input_str, idx=0):
+    if input_str[idx].isupper():
+        return input_str[idx]
+    if idx == len(input_str) - 1:
+        return "No upper case found"
+    return finduppercase_recursive(input_str, idx+1)
+
+
+finduppercase_recursive(input_str_1)
+finduppercase_recursive(input_str_2)
+finduppercase_recursive(input_str_3)
