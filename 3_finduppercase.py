@@ -1,8 +1,8 @@
 # Given a String find the uppercase
 
 input_str_1 = "AdityaTaksande"
-input_str_2 = "RachitKhandelwal"
-input_str_3 = "BadamBadam"
+input_str_2 = "rachitKhandelwal"
+input_str_3 = "badambadam"
 
 # iterative approach
 
@@ -15,6 +15,8 @@ def finduppercase_iterative(input_str):
 
 
 finduppercase_iterative(input_str_1)
+finduppercase_iterative(input_str_2)
+finduppercase_iterative(input_str_3)
 
 
 # recursive approach
