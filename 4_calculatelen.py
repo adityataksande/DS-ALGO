@@ -4,7 +4,8 @@
 input_str_1 = "Aditya Taksande"
 input_str_2 = "Rachit Khandelwal"
 
-# print(len(input_str))
+print(len(input_str_1))
+print(len(input_str_2))
 
 
 def iterative_str_len(input_str):
